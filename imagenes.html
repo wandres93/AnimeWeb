@@ -1,0 +1,79 @@
+<!DOCTYPE html>  <!--Declara el tipo de documento, indicando que es un archivo html5-->
+<html lang="en"> <!--inicia el documento y establece el idioma de la pag-->
+<head> <!--contiene informacion meta, configuraciones de la pag, no es visible para el usuario-->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"> <!-- espicifica la codificacion de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- configura el diseño para la parte ancha de la pag-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Anime Online</title><!-- define el titulo de la pag -->
+</head>
+<body>
+
+    <header>
+        <h1>Lista de Imagenes de Anime</h1>
+    </header>
+    <nav>
+      <a href="index.html">inicio</a>
+      <a href="anime.html">Anime</a> 
+      <a href="manga.html">Manga</a> 
+      <a href="Recomendados.html">Recomendaciones</a>
+    
+    </nav>
+    <div id="inicio">
+        <h2>Lista de Imagenes</h2>
+        <p>
+            esta es una pagina donde puedes ver Imagenes destacadas
+        </p>
+    </div>
+  <!--   <div>
+        <h2>Imagenes</h2>
+        <ul>
+            <li><strong>Overlord:</strong> <img src="Imagenes/Overlord1.gif" alt=""></li>
+            <li><strong>One Piece:</strong> <img src="Imagenes/one-piece-luffy-gear-5-white.gif" alt=""></li></li>
+            <li><strong>Solo Leveling</strong> <img src="Imagenes/solo-leveling.gif" alt=""></li></li>
+            <li><strong>The Apothecary Diaries</strong> <img id="botanica" src="Imagenes/the-apothecary-diaries.jpg"></li></li>
+        </ul>
+    </div> -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <li><strong>Overlord</strong><img src="Imagenes/Overlord1.gif" class="d-block w-100" alt="Overlord:"></li>
+          </div>
+          <div class="carousel-item">
+            <li><strong>One Piece</strong><img src="Imagenes/one-piece-luffy-gear-5-white.gif" class="d-block w-100" alt="..."></li>
+          </div>
+          <div class="carousel-item">
+            <li><strong>Solo Leveling</strong><img src="Imagenes/solo-leveling.gif" class="d-block w-100" alt="..."></li>
+          </div>
+          <div class="carousel-item">
+            <li><strong>The Apothecary Diaries</strong><img id="botanica" src="Imagenes/the-apothecary-diaries.jpg" class="d-block w-100" alt="..."></li>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+ <footer>
+    <p>2025</p>
+ </footer>
+
+</body>
+</html>
+
+
+
+
+
+<!-- alt+shift+a se coloca como comentario lo que se seleccione -->
+
+<!-- <a href=""></a>Hipervinculo 
+    <strong></strong> negrilla, texto de importancia fuerte 
+    <em></em> Representa texto enfatizado 
+    <img src="" alt=""> Imagenes  -->
