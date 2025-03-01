@@ -116,3 +116,26 @@ li {
     max-width: 500px;
 } */
  
+/* clase 7 */
+$primary-color: red; /* una variable que se utiliza para hacer cambios masivos */
+@mixin boton($color,$size){
+    background-color: $color;
+    font-size: $size;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-primary{
+    @include boton(Blue,large)
+}
+/* Extencion: se puede estender */
+%boton-estilo{
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.btn{
+    @extend %boton-estilo;
+    background-color: #007bff;
+}
+/* repetir un ciclo */
+@for $i from 1 through 5{}
